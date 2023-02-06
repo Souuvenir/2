@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.linkButton {
+  text-decoration: none; 
+  color: rgb(255, 255, 255);
+  width: 50%;
+  margin: 2px;
+}

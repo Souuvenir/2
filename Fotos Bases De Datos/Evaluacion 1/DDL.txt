@@ -1,0 +1,249 @@
+-- Generado por Oracle SQL Developer Data Modeler 21.4.2.059.0838
+--   en:        2022-05-29 13:00:52 CLT
+--   sitio:      Oracle Database 11g
+--   tipo:      Oracle Database 11g
+
+
+
+-- predefined type, no DDL - MDSYS.SDO_GEOMETRY
+
+-- predefined type, no DDL - XMLTYPE
+
+CREATE TABLE area (
+    id_area                    INTEGER NOT NULL,
+    nombre                     VARCHAR2(250),
+    sub_gerencia_id_subgerente INTEGER NOT NULL
+);
+
+CREATE UNIQUE INDEX area__idx ON
+    area (
+        sub_gerencia_id_subgerente
+    ASC );
+
+ALTER TABLE area ADD CONSTRAINT area_pk PRIMARY KEY ( id_area );
+
+CREATE TABLE carga_entregada (
+    cantidad    INTEGER,
+    producto_id INTEGER NOT NULL,
+    despacho_id INTEGER NOT NULL
+);
+
+CREATE TABLE comision (
+    id             INTEGER NOT NULL,
+    monto_comision INTEGER
+);
+
+ALTER TABLE comision ADD CONSTRAINT comision_pk PRIMARY KEY ( id );
+
+CREATE TABLE conductor (
+    id                 INTEGER NOT NULL,
+    nombre             VARCHAR2(50),
+    rut                INTEGER,
+    fecha_nacimiento   DATE,
+    fecha_contratacion DATE
+);
+
+ALTER TABLE conductor ADD CONSTRAINT conductor_pk PRIMARY KEY ( id );
+
+CREATE TABLE despacho (
+    id                  INTEGER NOT NULL,
+    codigo              INTEGER,
+    tipo_de_despacho_id INTEGER NOT NULL,
+    direccion           VARCHAR2(250),
+    destinatario_id     INTEGER NOT NULL,
+    comision_id         INTEGER NOT NULL
+);
+
+CREATE UNIQUE INDEX despacho__idx ON
+    despacho (
+        comision_id
+    ASC );
+
+ALTER TABLE despacho ADD CONSTRAINT despacho_pk PRIMARY KEY ( id );
+
+CREATE TABLE destinatario (
+    id     INTEGER NOT NULL,
+    nombre VARCHAR2(50),
+    rut    INTEGER
+);
+
+ALTER TABLE destinatario ADD CONSTRAINT destinatario_pk PRIMARY KEY ( id );
+
+CREATE TABLE detalle_despacho (
+    despacho_id INTEGER NOT NULL,
+    producto_id INTEGER NOT NULL,
+    cantidad    INTEGER
+);
+
+ALTER TABLE detalle_despacho ADD CONSTRAINT relation_5_pk PRIMARY KEY ( despacho_id,
+                                                                        producto_id );
+
+CREATE TABLE guia_de_despacho (
+    id           INTEGER NOT NULL,
+    direccion    VARCHAR2(50),
+    fecha        DATE,
+    vehiculo_id  INTEGER NOT NULL,
+    conductor_id INTEGER NOT NULL,
+    despacho_id  INTEGER NOT NULL,
+    receptor_id  INTEGER NOT NULL
+);
+
+CREATE UNIQUE INDEX guia_de_despacho__idx ON
+    guia_de_despacho (
+        despacho_id
+    ASC );
+
+ALTER TABLE guia_de_despacho ADD CONSTRAINT guia_de_despacho_pk PRIMARY KEY ( id );
+
+CREATE TABLE producto (
+    id           INTEGER NOT NULL,
+    nombre       VARCHAR2(250),
+    codigo       VARCHAR2(20),
+    valor        INTEGER,
+    cantidad     INTEGER,
+    area_id_area INTEGER NOT NULL
+);
+
+ALTER TABLE producto ADD CONSTRAINT producto_pk PRIMARY KEY ( id );
+
+CREATE TABLE receptor (
+    id               INTEGER NOT NULL,
+    nombre           VARCHAR2(250),
+    rut              INTEGER,
+    destinatario     CHAR(1),
+    tipo_receptor_id INTEGER NOT NULL
+);
+
+ALTER TABLE receptor ADD CONSTRAINT receptor_pk PRIMARY KEY ( id );
+
+CREATE TABLE sub_gerencia (
+    id_subgerente   INTEGER NOT NULL,
+    nomb_subgerente VARCHAR2(50) NOT NULL
+);
+
+ALTER TABLE sub_gerencia ADD CONSTRAINT sub_gerencia_pk PRIMARY KEY ( id_subgerente );
+
+CREATE TABLE tipo_de_despacho (
+    id          INTEGER NOT NULL,
+    descripcion VARCHAR2(50)
+);
+
+ALTER TABLE tipo_de_despacho ADD CONSTRAINT tipo_de_despacho_pk PRIMARY KEY ( id );
+
+CREATE TABLE tipo_receptor (
+    id          INTEGER NOT NULL,
+    descripcion VARCHAR2(50)
+);
+
+ALTER TABLE tipo_receptor ADD CONSTRAINT tipo_receptor_pk PRIMARY KEY ( id );
+
+CREATE TABLE vehiculo (
+    id      INTEGER NOT NULL,
+    patente VARCHAR2(50),
+    marca   VARCHAR2(50),
+    año     INTEGER,
+    color   VARCHAR2(50)
+);
+
+ALTER TABLE vehiculo ADD CONSTRAINT vehiculo_pk PRIMARY KEY ( id );
+
+ALTER TABLE area
+    ADD CONSTRAINT area_sub_gerencia_fk FOREIGN KEY ( sub_gerencia_id_subgerente )
+        REFERENCES sub_gerencia ( id_subgerente );
+
+ALTER TABLE carga_entregada
+    ADD CONSTRAINT carga_entregada_despacho_fk FOREIGN KEY ( despacho_id )
+        REFERENCES despacho ( id );
+
+ALTER TABLE carga_entregada
+    ADD CONSTRAINT carga_entregada_producto_fk FOREIGN KEY ( producto_id )
+        REFERENCES producto ( id );
+
+ALTER TABLE despacho
+    ADD CONSTRAINT despacho_comision_fk FOREIGN KEY ( comision_id )
+        REFERENCES comision ( id );
+
+ALTER TABLE despacho
+    ADD CONSTRAINT despacho_destinatario_fk FOREIGN KEY ( destinatario_id )
+        REFERENCES destinatario ( id );
+
+ALTER TABLE despacho
+    ADD CONSTRAINT despacho_tipo_de_despacho_fk FOREIGN KEY ( tipo_de_despacho_id )
+        REFERENCES tipo_de_despacho ( id );
+
+ALTER TABLE guia_de_despacho
+    ADD CONSTRAINT guia_de_despacho_conductor_fk FOREIGN KEY ( conductor_id )
+        REFERENCES conductor ( id );
+
+ALTER TABLE guia_de_despacho
+    ADD CONSTRAINT guia_de_despacho_despacho_fk FOREIGN KEY ( despacho_id )
+        REFERENCES despacho ( id );
+
+ALTER TABLE guia_de_despacho
+    ADD CONSTRAINT guia_de_despacho_receptor_fk FOREIGN KEY ( receptor_id )
+        REFERENCES receptor ( id );
+
+ALTER TABLE guia_de_despacho
+    ADD CONSTRAINT guia_de_despacho_vehiculo_fk FOREIGN KEY ( vehiculo_id )
+        REFERENCES vehiculo ( id );
+
+ALTER TABLE producto
+    ADD CONSTRAINT producto_area_fk FOREIGN KEY ( area_id_area )
+        REFERENCES area ( id_area );
+
+ALTER TABLE receptor
+    ADD CONSTRAINT receptor_tipo_receptor_fk FOREIGN KEY ( tipo_receptor_id )
+        REFERENCES tipo_receptor ( id );
+
+ALTER TABLE detalle_despacho
+    ADD CONSTRAINT relation_5_despacho_fk FOREIGN KEY ( despacho_id )
+        REFERENCES despacho ( id );
+
+ALTER TABLE detalle_despacho
+    ADD CONSTRAINT relation_5_producto_fk FOREIGN KEY ( producto_id )
+        REFERENCES producto ( id );
+
+
+
+-- Informe de Resumen de Oracle SQL Developer Data Modeler: 
+-- 
+-- CREATE TABLE                            14
+-- CREATE INDEX                             3
+-- ALTER TABLE                             27
+-- CREATE VIEW                              0
+-- ALTER VIEW                               0
+-- CREATE PACKAGE                           0
+-- CREATE PACKAGE BODY                      0
+-- CREATE PROCEDURE                         0
+-- CREATE FUNCTION                          0
+-- CREATE TRIGGER                           0
+-- ALTER TRIGGER                            0
+-- CREATE COLLECTION TYPE                   0
+-- CREATE STRUCTURED TYPE                   0
+-- CREATE STRUCTURED TYPE BODY              0
+-- CREATE CLUSTER                           0
+-- CREATE CONTEXT                           0
+-- CREATE DATABASE                          0
+-- CREATE DIMENSION                         0
+-- CREATE DIRECTORY                         0
+-- CREATE DISK GROUP                        0
+-- CREATE ROLE                              0
+-- CREATE ROLLBACK SEGMENT                  0
+-- CREATE SEQUENCE                          0
+-- CREATE MATERIALIZED VIEW                 0
+-- CREATE MATERIALIZED VIEW LOG             0
+-- CREATE SYNONYM                           0
+-- CREATE TABLESPACE                        0
+-- CREATE USER                              0
+-- 
+-- DROP TABLESPACE                          0
+-- DROP DATABASE                            0
+-- 
+-- REDACTION POLICY                         0
+-- 
+-- ORDS DROP SCHEMA                         0
+-- ORDS ENABLE SCHEMA                       0
+-- ORDS ENABLE OBJECT                       0
+-- 
+-- ERRORS                                   0
+-- WARNINGS                                 0

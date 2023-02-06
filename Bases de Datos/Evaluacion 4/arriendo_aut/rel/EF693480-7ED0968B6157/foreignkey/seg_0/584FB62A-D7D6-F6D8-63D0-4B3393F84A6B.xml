@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="584FB62A-D7D6-F6D8-63D0-4B3393F84A6B" containerWithKeyObject="A429BEC6-77EC-4756-3CE1-39F1CE92BB64" localFKIndex="3CEEC7A2-D7E4-239D-CA6B-D962998C8575" name="COMPONENTES_TIPO_COMP_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>F8AF2A68-5A94-1C33-772D-EB39A4EBE0ED</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<referredTableLongName>TIPO_COMP</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>450C4A93-2B96-F848-F27F-581D3F2CABEE</referredTableID>
+<keyObject>088E8D04-512E-1A26-8444-7776913AE88A</keyObject>
+<referredKeyID>088E8D04-512E-1A26-8444-7776913AE88A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TIPO_COMPONENTE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

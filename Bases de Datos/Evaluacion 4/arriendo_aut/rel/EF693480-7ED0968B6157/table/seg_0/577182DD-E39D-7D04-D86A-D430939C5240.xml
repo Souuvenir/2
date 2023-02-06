@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="577182DD-E39D-7D04-D86A-D430939C5240" name="AUTOMOVIL">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>48DCE3E3-A5F9-CADC-D144-6FD06BAF5B2F</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="8F99B707-24CC-DA15-E128-C6A0B7B256F5">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>6BA1B59C-A2F7-9C94-6B09-04831B14E7D9</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="437CD8F5-B4E1-8A9F-BACE-7951C97DA322">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>4DFFDDAF-F901-EA41-4AC6-F919B050F0B2</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patente" id="303E159A-548F-5AF3-D0F5-74710A936835">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>2BE6AC43-C9C4-910D-9B6C-1A50CCF535A7</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="FDCB2B76-2E43-12CE-3C1F-2BE83A571E1D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>A04D3CA5-11CC-7E3B-AEB1-99E52C7A163D</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8F1FCD5-B9E5-5B61-4ED3-A3EA3652E8B1" name="AUTOMOVIL_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>31F4D8CD-485A-7039-E9DB-9252F4367B1B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F99B707-24CC-DA15-E128-C6A0B7B256F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

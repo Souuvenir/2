@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A429BEC6-77EC-4756-3CE1-39F1CE92BB64" name="COMPONENTES">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>C0FE8FF6-6493-544C-0254-A92E217CC924</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="094E2F33-E16B-543B-6280-829DD06E778D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>688F384B-B667-4357-E3DE-0FA41B4F73B4</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_fab" id="032B3240-0B04-715D-E06C-565D25647D62">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>7E6F5753-2F30-FCBD-9923-CFB506AADD50</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_produccion" id="BE2728F9-D2E7-6A19-2564-D86B2D70A7DE">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>187F7AF2-091E-D98A-6AA6-4D71781D51C8</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_COMP_id" id="59D5F154-6F0B-0091-E028-422F6E38FF15">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:51:09 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="584FB62A-D7D6-F6D8-63D0-4B3393F84A6B" referredColumn="2B387F90-AA80-A97E-2215-79969B42606A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD485192-764E-F0B5-3C7D-8FF113EF124B" name="COMPONENTES_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>9CD23A63-52C2-8902-8D37-B83E5088B2D4</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="094E2F33-E16B-543B-6280-829DD06E778D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CEEC7A2-D7E4-239D-CA6B-D962998C8575" name="COMPONENTES_TIPO_COMP_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>F8AF2A68-5A94-1C33-772D-EB39A4EBE0ED</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59D5F154-6F0B-0091-E028-422F6E38FF15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

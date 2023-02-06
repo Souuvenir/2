@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8B91B36-8D2F-283F-639D-320F3560F850" name="TIPO RECEPTOR">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 22:49:21 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FCDC3A20-B11B-78A1-1373-3DBFC57CE3E2">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 22:49:40 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="D500EC70-3DBF-AF0D-6F16-0630202F7CC1">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 22:50:22 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34E90EA5-608B-512F-943C-DFED22E40F2A" name="TIPO RECEPTOR PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 15:52:26 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCDC3A20-B11B-78A1-1373-3DBFC57CE3E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

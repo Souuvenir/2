@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48DCE3E3-A5F9-CADC-D144-6FD06BAF5B2F" name="AUTOMOVIL">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:43:10 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6BA1B59C-A2F7-9C94-6B09-04831B14E7D9">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:44:03 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="4DFFDDAF-F901-EA41-4AC6-F919B050F0B2">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:59:36 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente" id="2BE6AC43-C9C4-910D-9B6C-1A50CCF535A7">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:59:50 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano" id="A04D3CA5-11CC-7E3B-AEB1-99E52C7A163D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 17:00:03 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31F4D8CD-485A-7039-E9DB-9252F4367B1B" name="AUTOMOVIL PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:44:08 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BA1B59C-A2F7-9C94-6B09-04831B14E7D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

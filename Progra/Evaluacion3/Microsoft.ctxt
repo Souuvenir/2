@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Microsoft
+comment1.params=dedoEnLector
+comment1.target=java.lang.String\ onHuella(boolean)
+comment2.params=
+comment2.target=java.lang.String\ onMuestra()
+comment3.params=
+comment3.target=java.lang.String\ outHuella()
+numComments=4

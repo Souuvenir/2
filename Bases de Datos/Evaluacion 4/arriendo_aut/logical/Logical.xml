@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8A4843CF-94DA-4F22-5069-D15B95223167" mainViewID="69957300-6649-B229-8CA4-F7709C23D39D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:38:42 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

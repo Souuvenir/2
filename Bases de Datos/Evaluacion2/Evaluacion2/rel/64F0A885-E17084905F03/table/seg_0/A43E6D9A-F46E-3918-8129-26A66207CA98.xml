@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A43E6D9A-F46E-3918-8129-26A66207CA98" name="DESEMPEÑO_ZONAS_EXTREMAS">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>BD7AB9D0-CDE7-275E-CBAE-A31DAB61DCF6</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C88FFA2E-089F-1D34-3100-467AD7E65026">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DB7CD796-97F3-1FF3-F387-1AAF9E467161</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo_desempeñado" id="0FB837E0-658A-E688-5E46-6AF88C00B8D9">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>0257D79F-F8F6-DE1B-8DF0-B2D705F9A7AB</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="AFA6F860-E951-DC40-30D9-9B1BA2067B84">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>59D6C591-B419-67E1-1C5B-5F9E6C35FD56</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="5A96EB38-5D65-0C0C-C5F1-4C8F976924CB">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>3FF2674A-4EBF-2345-A6AA-0E877DB51AF4</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A0C05C9-4972-D1F8-B65A-697FF5B6C082" name="DESEMPEÑO_ZONAS_EXTREMAS_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>3C3716F2-5A6A-4F54-0E69-B5D92E8BC523</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C88FFA2E-089F-1D34-3100-467AD7E65026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

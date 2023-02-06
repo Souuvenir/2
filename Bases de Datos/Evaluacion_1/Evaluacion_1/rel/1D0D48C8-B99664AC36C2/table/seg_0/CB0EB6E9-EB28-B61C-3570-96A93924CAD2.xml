@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB0EB6E9-EB28-B61C-3570-96A93924CAD2" name="VEHICULO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>E9598A50-BDD9-FE32-A899-D96D963BE414</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DFBCDBED-C9D4-9A96-AE6D-1CF2A74BC33C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>89C7D925-29EC-F80A-8302-720747DF88D0</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patente" id="0E690E51-F07D-30DA-7FC5-FDF663452698">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>4E1789E3-C808-5B71-3F5B-941C2D5B6C51</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="865D1C58-9A47-D7E8-370F-EC06BDD7CE9C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>F621B32A-B4AD-A2E1-7A55-C0EE224CA5C8</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="año" id="73C266A6-3B9D-5BD8-5BB3-EB09075AB25C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>DD050F53-C078-9CF7-CEF7-97F567140EE2</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="4993E648-D3E6-40CE-A543-7714FC662DF7">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>BFBE9BD3-C455-E21B-3054-FCC5C9817E61</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36C7DC05-CE95-FAFD-E91F-9B9E8A08BE97" name="VEHICULO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>ED724C9D-F622-96C0-C98A-19D580660CCA</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFBCDBED-C9D4-9A96-AE6D-1CF2A74BC33C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

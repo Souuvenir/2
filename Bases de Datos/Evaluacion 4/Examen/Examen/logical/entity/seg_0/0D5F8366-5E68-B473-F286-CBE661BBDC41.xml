@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D5F8366-5E68-B473-F286-CBE661BBDC41" name="RESERVA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:05:34 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="86767293-9C0E-A738-1BE6-F677B0CB7907">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:05:42 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AUTOMOVIL id" id="6AB7A859-4347-1A92-0D71-0F7F705DF862">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:11:32 UTC</createdTime>
+<generatorID>DAE6E017-B9C2-CE67-E7D0-1666347DCFEC</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<referedAttribute>4AE38319-6339-6E4A-59E2-17A58C22AA7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOCIO id" id="1727B4C0-D027-E42F-4AA6-E802A51E1BB5">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:11:41 UTC</createdTime>
+<generatorID>5C38F592-26AB-F781-84CD-ADB592E21691</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<referedAttribute>5AE96CEC-3E36-0C8D-D920-C5FDD00B3B13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD9884EA-87DF-5F94-DDBE-C2B0AA043AEC" name="RESERVA PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:05:48 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86767293-9C0E-A738-1BE6-F677B0CB7907</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

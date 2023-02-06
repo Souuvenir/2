@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPONENTE TIPO COMP FK" directorySegmentName="seg_0" id="D18D4AA1-9D24-E567-6C22-8135861206A0">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:00 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<sourcePk>2FC8C3C8-B988-0705-EF62-991BF5968B58</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>99F8EDAE-A50B-6CE8-A96B-95BC3C9A69C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E5719B4-8E5A-BBDA-4DB0-04E37F71673F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

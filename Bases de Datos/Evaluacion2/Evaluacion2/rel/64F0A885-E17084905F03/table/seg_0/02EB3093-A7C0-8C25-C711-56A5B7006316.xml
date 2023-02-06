@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02EB3093-A7C0-8C25-C711-56A5B7006316" name="INSTITUCION_POSTULA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>5A3E6E7E-AD31-0D0F-2075-40FA9B8D2B91</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FC4569A6-6D8E-82A2-250D-50761F5FF0D7">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>59993F94-505D-7953-8F9E-B204078247DD</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_id" id="DCA815C3-0F0C-981C-2E16-6EB1566E8801">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>79DD78E6-CA4E-A834-793B-FFF6FDF6C843</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D80ACF0B-A52B-2CB7-A8DF-7B5D5290F304" referredColumn="FF0953CA-9933-B965-2306-22E71063D8C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CA6698C-F6CF-E828-97CE-9841FE5C077F" name="INSTITUCION_POSTULA_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DEC5FFD2-AFD1-A574-FB57-C010428907B2</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC4569A6-6D8E-82A2-250D-50761F5FF0D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D3842CF-1AAA-B3F4-7E77-37A41755AC00" name="INSTITUCION_POSTULA_PAIS_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>BD17E846-91F4-9082-1CD0-5593E2DAF66F</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA815C3-0F0C-981C-2E16-6EB1566E8801"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

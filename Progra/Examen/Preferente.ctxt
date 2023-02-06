@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Preferente
+comment1.params=sigla\ ubicacion
+comment1.target=Preferente(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=double\ valorAPagar()
+comment3.params=
+comment3.target=java.lang.String\ mostrarPago()
+comment4.params=tarifa
+comment4.target=void\ definirTarifaUnica(int)
+comment5.params=tipoDescuento
+comment5.target=void\ definirTipoDescuento(int)
+comment6.params=tarifa
+comment6.target=void\ definirTarifaMinuto(int)
+comment7.params=hora\ minuto
+comment7.target=void\ registrarSalida(int,\ int)
+comment8.params=hora\ minuto
+comment8.target=void\ registrarEntrada(int,\ int)
+numComments=9

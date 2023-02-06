@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="2940DB75-5A9D-DD88-8B5E-87AEA1D6981B">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:32:35 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<sourcePk>043B4058-0161-1C80-D28F-C81ADA30AD84</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B965AD57-D55C-1B1C-C1AB-6044FEFA2E16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C8B965A1-C819-2BAC-048E-5167EAAF4E47</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

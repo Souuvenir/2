@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DD7B166-0D0A-5A7B-3B48-4218A865A790" name="POSTULACION">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:39:08 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="33A4C960-3368-F08F-DA7B-DB288B170843">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:39:13 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_postulacion" id="E1E281A5-EF40-279C-E607-CF0ACF5156B3">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:41:07 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A3095796-7373-7253-0305-65C7E8BBC67A">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:43:42 UTC</createdTime>
+<generatorID>026BC7F9-D6DE-C3D7-9D23-67C8FF249FA8</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>2978CECA-AE85-31D7-CD43-C01483F8A423</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="75B3389C-5147-4A09-5EA5-27E3B5FAC0F0">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:45:17 UTC</createdTime>
+<generatorID>A47615B1-FE73-1A8C-0F14-E96153F4D792</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>3D7E9A35-5270-D422-37F9-CAA2904D05D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="29600AAB-F299-EBE1-CF7E-46A933F57A0E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:45:56 UTC</createdTime>
+<generatorID>DE34C10D-4700-1C59-BD67-9727726DAE6E</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>59993F94-505D-7953-8F9E-B204078247DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="B441B039-7189-EA4C-A49F-D193EFAF479B">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:52:59 UTC</createdTime>
+<generatorID>593DF60F-7696-A311-5840-DC601855990A</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>430A3DA7-3965-BBE8-B5DD-7E005BDF11A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id5" id="8E02D846-C7E7-E572-0DBB-64571450003E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:53:04 UTC</createdTime>
+<generatorID>BA999974-708B-4160-59C9-6D966F03D420</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>1297F748-CE40-CEC1-F0E2-4CC8B0533C5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id6" id="55CE5E3E-D559-0988-1DD4-C80802AD6E12">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:53:07 UTC</createdTime>
+<generatorID>1499629F-BD6C-CBFA-CEE6-6F2236A4A96F</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>E08F57F1-839F-BE8C-2DE2-E450CCE58799</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id7" id="D8C6C916-8BF9-5C48-87AF-76DDD8DBE7FC">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:53:11 UTC</createdTime>
+<generatorID>61EB0DA8-2F0B-10B0-6B4B-17404349B56D</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>BA10095E-98B4-A944-F192-BA81A4D3D6A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id8" id="7B30E694-3CE0-72B0-AB4C-0F1E18E9EA29">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:53:16 UTC</createdTime>
+<generatorID>AC1311A8-49FF-E6F9-CDAB-7C2C3E8A5499</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>E6438A7F-656C-2332-CD41-2D4327DF8C03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id9" id="7DAC5EB8-918E-F037-C71A-DE1AB819AFC9">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:53:20 UTC</createdTime>
+<generatorID>4D0CED3A-F129-2629-B102-C42535614684</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>DB7CD796-97F3-1FF3-F387-1AAF9E467161</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85C29CDA-5EBA-2F0D-CAF8-88C7EE95E64A" name="POSTULACION PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:39:19 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33A4C960-3368-F08F-DA7B-DB288B170843</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

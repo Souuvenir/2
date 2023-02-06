@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0FE8FF6-6493-544C-0254-A92E217CC924" name="COMPONENTES">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:51:25 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="688F384B-B667-4357-E3DE-0FA41B4F73B4">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:51:47 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_fab" id="7E6F5753-2F30-FCBD-9923-CFB506AADD50">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 17:08:05 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_produccion" id="187F7AF2-091E-D98A-6AA6-4D71781D51C8">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 17:08:24 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="911BBFCA-2469-E8C0-0473-3C820463AC07">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:43:12 UTC</createdTime>
+<generatorID>F8AF2A68-5A94-1C33-772D-EB39A4EBE0ED</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<referedAttribute>511E6D94-9D69-FE64-663D-E7892A39FBE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CD23A63-52C2-8902-8D37-B83E5088B2D4" name="FABRICANTE PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:52:01 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>688F384B-B667-4357-E3DE-0FA41B4F73B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

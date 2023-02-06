@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE10FC69-B876-B390-B66F-A8BE3DF0C6F6" name="RECEPTOR">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 21:05:03 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="16FB017A-D8E5-7418-7A42-8C52A83C37AD">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:57:04 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre " id="E6B38549-1F52-34E0-BBDF-5AB185FA4CFC">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-27 23:22:17 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="37953515-491E-F4F4-FBD6-2C718EAFDC68">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-27 23:22:55 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="destinatario" id="566EA081-9913-BB42-BDC5-C0F904F90D9A">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:50:20 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="5F44F912-8077-2347-9A81-BA2D6528F833">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 15:52:32 UTC</createdTime>
+<generatorID>482FC87B-8291-BD8C-575C-5A60B67A7C4E</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>FCDC3A20-B11B-78A1-1373-3DBFC57CE3E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F191E7C3-E984-1EB2-A693-FA881CD767D9" name="RECEPTOR PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:57:31 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16FB017A-D8E5-7418-7A42-8C52A83C37AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

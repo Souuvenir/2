@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A41E372-5F9E-C4C8-D637-6B9AFB215D59" name="ARRIENDO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:55:56 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4D3710F3-37C1-D116-1E8A-AEC1B88E86A7">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:56:14 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="F5C81C0B-7028-A969-1381-E4A0D99446F3">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:56:23 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="9C6107AD-9B06-62C7-B28F-FBB11259C723">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:56:48 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="33BDF3E3-AF3E-83C3-9027-59C31D8FB0F3">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:57:13 UTC</createdTime>
+<generatorID>55E18B88-0148-19CF-548C-0056BA2C4F8B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<referedAttribute>64082BE7-2365-DBF0-8276-11251AC275F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="D9DF8D3E-CF26-F035-B617-B6A3171EA9B7">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:57:13 UTC</createdTime>
+<generatorID>55E18B88-0148-19CF-548C-0056BA2C4F8B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<referedAttribute>11A7E11F-2ED1-2838-B8EB-2808B81DD553</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73A95C2B-1C21-3519-4C3F-F7684C78F7F0" name="ARRIENDO PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:56:08 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DC68B27-4EF3-44D8-2629-0C916EDB9146</attributeRef>
+<attributeRef>4D3710F3-37C1-D116-1E8A-AEC1B88E86A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

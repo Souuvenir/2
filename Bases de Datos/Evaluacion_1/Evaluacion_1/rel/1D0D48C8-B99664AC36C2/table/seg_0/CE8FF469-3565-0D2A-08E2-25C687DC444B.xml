@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE8FF469-3565-0D2A-08E2-25C687DC444B" name="DETALLE_DESPACHO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<ordsAlias>relation_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DESPACHO_id" id="39790E5C-47C6-7E76-23BD-BF220D8357CF">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68DAA2D1-452E-EB4F-F5EC-F3C32B6763B5" referredColumn="CFA034CD-72C6-C2A8-6AF4-FD02DCC7F7CF"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_id" id="8512C3FA-7DA3-A43B-B73C-8B41DCC15D5D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2CD1F6E-73D9-8499-341C-150E490C4F85" referredColumn="D338366F-6756-3A38-1BE7-4BB9E56B6EFF"/>
+</associations>
+</Column>
+<Column name="cantidad" id="5F7C1D4E-B3D5-DED7-9B5F-C30C7CAC9B0F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:59:01 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC8BEEEE-36D8-B63C-A99D-41B2EDE4F9E7" name="Relation_5_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39790E5C-47C6-7E76-23BD-BF220D8357CF"/>
+<colUsage columnID="8512C3FA-7DA3-A43B-B73C-8B41DCC15D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C10A6CE-7FCC-1828-D264-3CF9C0CE142C" name="Relation_5_DESPACHO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>910E1A59-834F-EAE4-0445-186D4AE9EE41</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39790E5C-47C6-7E76-23BD-BF220D8357CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAF8627A-1704-5DCC-9CAE-CB863D3A0178" name="Relation_5_PRODUCTO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>910E1A59-834F-EAE4-0445-186D4AE9EE41</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8512C3FA-7DA3-A43B-B73C-8B41DCC15D5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

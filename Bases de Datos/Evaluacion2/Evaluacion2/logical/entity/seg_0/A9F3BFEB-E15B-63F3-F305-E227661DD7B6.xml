@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9F3BFEB-E15B-63F3-F305-E227661DD7B6" name="UNIVERSIDAD_DE_EGRESO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-10 22:23:38 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="064829D1-5BDA-1883-B2BB-A3C55628D4DB">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:47:27 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

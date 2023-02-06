@@ -1,0 +1,62 @@
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src="/javascripts/script.js"></script>
+</head>
+<header>
+    <h1 class="labelc">Listado de Prodcutos</h1>
+</header>
+<body>
+    <div class="container">
+        <button type="button" id="myInput" class="btn btn-primary blogin" data-bs-toggle="modal" data-bs-target="#myModal" onclick="limpiar()">Nuevo</button>
+        <a class="btn btn-danger blogin" href="/" role="button">Cerrar Sesion</a>
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Comercio</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th colspan="2">Opciones</th>
+                    </tr>
+                </thead>
+                {{#each response}}
+                <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.producto}}</td>
+                    <td>{{this.comercio}}</td>
+                    <td>{{this.precio}}</td>
+                    <td>
+                        <a class="btn btn-danger blogin" id="myInput" onclick="cargar({{this.id}},'{{this.comercio}}', '{{this.producto}}',{{this.precio}})" data-bs-toggle="modal" data-bs-target="#myModal" href="/productos/modify/{{this.id}}" role="button">Editar</a>
+                        <a class="btn btn-danger blogin" href="/productos/delete/{{this.id}}" role="button">Eliminar</a>
+                    </td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 labelc" id="staticBackdropLabel">Agregar producto nuevo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="MyForm" action="" method="post">
+                        <label for="comercio">Comercio</label>
+                        <input id="comercio" name="comercio" class="form-control mb-2" type="text" placeholder="Comercio" aria-label="default input example" required >
+                        <label for="Producto">Producto</label>
+                        <input id="producto" name="producto"class="form-control mb-2" type="text" placeholder="Nombre" aria-label="default input example"required >
+                        <label for="precio">Precio</label>
+                        <input id="precio" name="precio" class="form-control mb-2" type="text" placeholder="Precio" aria-label="default input example"required>
+                        <button type="submit" class="btn btn-primary blogin">Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

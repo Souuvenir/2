@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARRIENDO RESERVA FKv2" directorySegmentName="seg_0" id="41E0D9E6-4E42-EF1A-82D4-3B50BE3F4441">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:48:08 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<sourcePk>BD9884EA-87DF-5F94-DDBE-C2B0AA043AEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D5F8366-5E68-B473-F286-CBE661BBDC41</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CEBC631E-0159-BBA9-AB52-A5B5845420A3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

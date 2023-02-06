@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="941CDAD5-F255-6AD9-1011-5604EC44E2C0" name="ARRIENDO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>CEBC631E-0159-BBA9-AB52-A5B5845420A3</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6334C699-8958-A392-C028-7804303AA326">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>12A2731E-2909-7C51-BBA4-AB7F921730AB</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="B491ABB7-950A-C11D-20FC-6B0A8381D196">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>D0C92542-9A72-45C1-619D-B7E33E35F90B</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="D508FF45-6F22-40F6-D78A-A0ADD121AF1B">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>9A37E5F1-90E6-14DD-73F5-FA95CF84BC69</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVA_id2" id="C6B8FE50-E95C-212D-C4EE-4A251524E526">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:48:30 UTC</createdTime>
+<generatorID>2B17904F-11B5-C9B9-85F3-EE4977C5B3E5</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B37365E1-CC0A-060D-B712-6453BB74C219" referredColumn="7696317D-0DE1-ABF7-2761-93A99369E398"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1B947D9-7EF6-1188-FAA7-A51A9333AB7F" name="ARRIENDO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>A51AB938-95DA-6A02-E8B1-6DC7CD1A9070</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6334C699-8958-A392-C028-7804303AA326"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D230487E-1045-4349-73CD-582443F53342" name="ARRIENDO__IDX">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:48:30 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>41E0D9E6-4E42-EF1A-82D4-3B50BE3F4441</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C6B8FE50-E95C-212D-C4EE-4A251524E526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0871FCAF-0533-79AF-9CAE-BA985BC11240" name="ARRIENDO_RESERVA_FKv2">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:48:30 UTC</createdTime>
+<generatorID>41E0D9E6-4E42-EF1A-82D4-3B50BE3F4441</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B8FE50-E95C-212D-C4EE-4A251524E526"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADFBB275-15C4-A7E0-BC8C-2D8FBE45203F" name="SOCIO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>B965AD57-D55C-1B1C-C1AB-6044FEFA2E16</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="91808B87-6C67-E6D8-9161-A22AEE6C0571">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>53C40065-9AA9-0BE3-BF3B-78363D33B4B1</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="8A56E9A5-BD1E-FBD6-1EE8-2910ABBED587">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>ECA2E40A-B451-3032-A070-5EDEFA49BEF4</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rut" id="66DE462B-35F1-38B0-ED59-79E373640F4E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>D5A215E7-6703-8ECB-288D-7CD87A6C4F9E</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="domicilio" id="6F77DF70-E866-0587-C506-46B03E1F5436">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>61F9EE41-5821-A422-B1D7-6731CB47DCB2</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio_aval" id="5C2730AF-B3F8-F631-0F34-EF6CF0828D9E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>FD0E4437-F3FC-3280-BF23-3E84EE441486</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="561E9172-FD1A-4B77-644D-C637D19EC808" name="SOCIO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>043B4058-0161-1C80-D28F-C81ADA30AD84</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91808B87-6C67-E6D8-9161-A22AEE6C0571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

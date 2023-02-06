@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94B0EB11-C98B-8B63-0E7C-12E89C14B526" name="ANTECEDENTES_TITULO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>45361388-0B31-AF0A-05A9-DBDB9DCCDBA0</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="05D8C1A4-CA2B-9274-9101-095C82742CE6">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>8D948826-97B8-522F-0A35-78ABC066E7F5</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_titulacion_final" id="D5682D6D-3EA1-C243-C7EC-B69B8605E590">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>F7A2E6B3-0AAF-812E-6680-BBB6F3DD3808</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_reconocimiento_titulo" id="BB5A0B7C-F001-DDD2-154E-3487F34F01C8">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>B2138739-C5AC-D360-6CE4-6D8965E9D3BE</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_de_aprobacion_final" id="B21D0F44-01E2-5E5F-F1F9-7183C6F4682A">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DF1FE4CF-D3E6-D453-3ED7-9625521C4F9E</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_revalidacion" id="81F690C3-A3D1-EF00-894D-11D07C881DDE">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>15223A4D-D18F-ACD5-0ACB-62F85058C58F</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calificacion_media_nacional" id="A24F2FBD-EE5C-E454-5231-193DAE2AEFAD">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DD90D865-F6B5-8C5A-BBBB-8BEE3AAC7E05</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_id" id="A32F08FA-F65B-17FF-37ED-47991509B593">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>8E69D73A-78C3-285F-B29A-D9C9E738DA2C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="121698CC-FB33-9427-7C06-2629E3F53BCC" referredColumn="FF0953CA-9933-B965-2306-22E71063D8C1"/>
+</associations>
+</Column>
+<Column name="UNIVERSIDAD_DE_EGRESO_UNIVERSIDAD_DE_EGRESO_ID" id="1890162A-70BB-A436-CD5F-91C467D56432">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22885468-8C5F-5EFE-D077-B0E464A545BA" referredColumn="1D71CFA8-768C-5933-9163-760399882F8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="331D0AB4-D6B8-4F4E-ED1F-B850E03CF170" name="ANTECEDENTES_TITULO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>9C0FB026-D5DB-3FAC-A293-F40D576F6654</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05D8C1A4-CA2B-9274-9101-095C82742CE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CC5DEA4-14CA-35A5-799C-1A79A803DBBE" name="ANTECEDENTES_TITULO_UNIVERSIDAD_DE_EGRESO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>D827FDC5-593F-727E-7C4E-8FE79992AC24</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1890162A-70BB-A436-CD5F-91C467D56432"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED59BFFA-FF48-4B71-9AD9-007239254202" name="ANTECEDENTES_TITULO_PAIS_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DF8F23C3-B48C-FC1B-130A-B953C78B7D09</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A32F08FA-F65B-17FF-37ED-47991509B593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

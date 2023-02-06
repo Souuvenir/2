@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84A884A9-EDF1-F53B-485B-0588DCB54F72" name="Relation_4">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<ordsAlias>relation_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUTOMOVIL_id" id="3141546B-A43A-0BB9-962F-978E94EF065C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48895CE3-3A33-14D0-66B3-84AC886DBD9A" referredColumn="6F4F1410-51A4-5225-897D-42E9F5711C6B"/>
+</associations>
+</Column>
+<Column name="COMPONENTE_id" id="026F0269-209E-6B8E-C5FB-2C459B6CB206">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C508E8E8-6B51-F9E2-34F6-432FF9E0AAFC" referredColumn="92E132B7-0F46-2B19-2346-5694413D9EA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B277436C-DAD8-B688-D7EE-08932C839BBD" name="Relation_4_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3141546B-A43A-0BB9-962F-978E94EF065C"/>
+<colUsage columnID="026F0269-209E-6B8E-C5FB-2C459B6CB206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="764413FE-0789-0C61-BB5D-FDE49049A4B9" name="Relation_4_AUTOMOVIL_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>5CB7A443-8B50-B644-6613-88EDBFFD3B94</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3141546B-A43A-0BB9-962F-978E94EF065C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB40FF57-46F7-90CB-F7ED-A782C206CA19" name="Relation_4_COMPONENTE_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>5CB7A443-8B50-B644-6613-88EDBFFD3B94</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="026F0269-209E-6B8E-C5FB-2C459B6CB206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

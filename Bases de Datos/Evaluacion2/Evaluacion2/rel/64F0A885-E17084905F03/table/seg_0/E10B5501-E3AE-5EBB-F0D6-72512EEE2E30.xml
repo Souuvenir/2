@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E10B5501-E3AE-5EBB-F0D6-72512EEE2E30" name="FORM_ANTIGUEDAD_FUNCIONARIA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>CEEA2E71-2CA1-5AF8-3348-509CE8AE8E42</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="836207E8-E866-EE74-8BF9-907DEF1FD479">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>E08F57F1-839F-BE8C-2DE2-E450CCE58799</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio_contrato" id="77C43865-0DC7-F3FE-7AEF-0CB649E4445B">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>B9E5A466-1FE2-3EF3-EB23-7557010E67EF</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="años__antiguedad" id="79E62360-EC0F-42C3-336C-101C7A612837">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>C32D8FF6-5124-84F3-AA73-580079D26811</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jornada_laboral" id="6263FDBA-D344-C792-5FF0-8AC14F251A9C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>4E201791-EFD9-25EF-ED46-6445A99FE57C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AA8C4AF-C175-D04F-8014-B7E1D3286FCD" name="FORM_ANTIGUEDAD_FUNCIONARIA_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DF3F85E1-DEED-1D4F-C1D5-18D7D28FC84D</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="836207E8-E866-EE74-8BF9-907DEF1FD479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

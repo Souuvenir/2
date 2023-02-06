@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FD2D447-BD69-4F8F-966A-A10E669D29BF" name="COMISION">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>B12BDE31-096E-3514-F3B1-23B93E981D06</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="22212387-9120-997B-FE25-53E148AFDEC8">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>7381DA7D-CF52-984D-8054-0A24AB075EDB</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_comision" id="AEF0A390-922F-D255-9ABF-AB4ABEF3E166">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>1D293F4D-A5AF-3118-45A6-4D84812EC8F4</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63FA0396-AB2C-5EB4-C7C3-072A74D0B086" name="COMISION_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>327B1F8E-5240-1E5F-0A6F-45FC1D3F76DF</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22212387-9120-997B-FE25-53E148AFDEC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

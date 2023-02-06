@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF583ABB-9C53-3355-0268-3ADB1143F9FF" name="DESEMPEÑO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>B12E6ABB-E53C-6531-8291-11F91C8B1109</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="26EC84FD-9C71-C509-EBED-DB78F1829B27">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>F7D1ABED-E9AC-5ABF-9FE1-67DD79FAB8E3</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_institucional" id="2B83DF85-FF3F-2881-3453-1B8209EA6208">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>8F235932-EB06-9244-B1D6-6F614FE3CD9C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTABLECIMIENTO_DESEMPEÑO_id" id="4961954B-B4BA-0209-9FF8-3701710BB9E3">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>4AA1A06B-2DCA-C02C-769B-9D846DD26A7C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A556A830-3C87-0C8D-54F0-B15A1D8E7D38" referredColumn="4C720288-F9BE-5490-08ED-89B3DDAB0532"/>
+</associations>
+</Column>
+<Column name="DIRECCION_id" id="FCCA447C-874E-F4F0-9CA3-AA790CC82C20">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>24F245F6-E0F3-B970-F66B-DC54C793BB9C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A1EFED5-298D-19F5-D32B-63170E78CC01" referredColumn="D575EC19-5BB6-51DB-B640-7EB8C252123C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81DB588E-2BF1-4F56-4CEA-A18F788EC4CA" name="DESEMPEÑO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>E1FB3874-4F60-2D6E-6F62-09CC1247E87A</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26EC84FD-9C71-C509-EBED-DB78F1829B27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F22BDD2D-2496-7C37-7F59-F6E3B2CDEB4F" name="DESEMPEÑO_ESTABLECIMIENTO_DESEMPEÑO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>2CE36FA1-3873-9AA0-58E0-7E79B441E0E1</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4961954B-B4BA-0209-9FF8-3701710BB9E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="837771ED-9323-35A9-53D4-6DCC15CC2CDA" name="DESEMPEÑO_DIRECCION_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>3528A009-E57C-F4E2-14EF-BA56A45D7A0E</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCCA447C-874E-F4F0-9CA3-AA790CC82C20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

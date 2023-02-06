@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B47362F-97D8-1BEA-D11E-6B846C310B3A" name="SUB_GERENCIA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>F814B098-38EF-6393-81D4-4DD51680CF6B</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_subgerente" id="85BF81B3-E98C-6819-5726-C6E73685E46E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>27C1D1CF-25D6-5DF9-9F17-447EEBD05CFA</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomb_subgerente" id="BC7FA5F0-7430-EEDF-3F5C-FD78C855EFA1">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>7F275692-473E-DAC4-9E3A-57C7D9930A68</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10124E65-6778-4E2C-D152-0C949883739E" name="SUB_GERENCIA_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>DF874138-2DC7-A081-EECF-B8FDF7F39A33</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85BF81B3-E98C-6819-5726-C6E73685E46E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

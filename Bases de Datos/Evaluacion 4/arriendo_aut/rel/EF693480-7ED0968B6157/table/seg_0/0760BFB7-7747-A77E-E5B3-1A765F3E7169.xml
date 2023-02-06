@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0760BFB7-7747-A77E-E5B3-1A765F3E7169" name="detalle_componentes">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AUTOMOVIL_id" id="2D0D94CB-274C-E5C6-E19D-D934EEBACC4D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1324689D-BFC7-8EC7-1225-931FAD59B2AF" referredColumn="8F99B707-24CC-DA15-E128-C6A0B7B256F5"/>
+</associations>
+</Column>
+<Column name="COMPONENTES_id" id="67D8BF61-5B5E-1D34-DA3E-6AD102338D47">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="729F52C3-69AC-136E-016C-42F5431CFE2B" referredColumn="094E2F33-E16B-543B-6280-829DD06E778D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3A08284-7352-A8BD-EBE2-7D97BD883C30" name="Relation_2_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D0D94CB-274C-E5C6-E19D-D934EEBACC4D"/>
+<colUsage columnID="67D8BF61-5B5E-1D34-DA3E-6AD102338D47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC519CE2-2288-04A5-834B-C24D9E8B73BE" name="Relation_2_AUTOMOVIL_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>627DA84A-1B3D-6AE8-18B4-E64195DE74B3</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D0D94CB-274C-E5C6-E19D-D934EEBACC4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E31EA92B-68BA-868F-A832-EBB48A0FE936" name="Relation_2_COMPONENTES_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>627DA84A-1B3D-6AE8-18B4-E64195DE74B3</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67D8BF61-5B5E-1D34-DA3E-6AD102338D47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

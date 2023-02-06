@@ -1,0 +1,38 @@
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script type = "text/javascript" src="/javascripts/validator.js"></script>
+</head>
+<header>
+    <h1>Listado de usuarios</h1>
+</header>
+<body>
+    <div class="container">
+        <a class="btn btn-primary" href="/registry/" role="button">Nuevo</a>
+        <a class="btn btn-warning" href="#" role="button" id="chat">ir al Chat</a>
+        <a class="btn btn-danger" href="/" role="button">Cerrar Sesion</a>
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Correo</th>
+                        <th colspan="2">Operacion</th>
+                    </tr>
+                </thead>
+                {{#each response}}
+                <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.username}}</td>
+                    <td>{{this.email}}</td>
+                    <td>
+                        <a class="btn btn-primary" href="/users/modify/{{this.id}}" role="button">Modificar</a>
+                        <a class="btn btn-danger" href="/users/delete/{{this.id}}" role="button">Eliminar</a>
+                    </td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E5719B4-8E5A-BBDA-4DB0-04E37F71673F" name="COMPONENTE">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:09:05 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="907AFE82-AFD7-DDC8-C213-8BE6AC517B21">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:09:18 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre fab" id="A44F65F1-24A3-0FB5-6134-82B88E97A814">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:09:34 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano prod" id="03EF82A9-EA42-43DA-C331-AD4403C8D006">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:09:59 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO COMP id" id="902AB96B-8CE2-81AD-BE90-9598C39775CD">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:00 UTC</createdTime>
+<generatorID>D18D4AA1-9D24-E567-6C22-8135861206A0</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<referedAttribute>15FC60A1-DCD3-F54C-DE0F-CAD3943211D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE0784C5-68E3-8013-FB1F-06DE32AB91A2" name="COMPONENTE PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:09:25 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>907AFE82-AFD7-DDC8-C213-8BE6AC517B21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

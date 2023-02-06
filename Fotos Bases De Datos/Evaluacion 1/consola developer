@@ -1,0 +1,132 @@
+
+Table AREA creado.
+
+
+INDEX AREA__IDX creado.
+
+
+Table AREA alterado.
+
+
+Table CARGA_ENTREGADA creado.
+
+
+Table COMISION creado.
+
+
+Table COMISION alterado.
+
+
+Table CONDUCTOR creado.
+
+
+Table CONDUCTOR alterado.
+
+
+Table DESPACHO creado.
+
+
+INDEX DESPACHO__IDX creado.
+
+
+Table DESPACHO alterado.
+
+
+Table DESTINATARIO creado.
+
+
+Table DESTINATARIO alterado.
+
+
+Table DETALLE_DESPACHO creado.
+
+
+Table DETALLE_DESPACHO alterado.
+
+
+Table GUIA_DE_DESPACHO creado.
+
+
+INDEX GUIA_DE_DESPACHO__IDX creado.
+
+
+Table GUIA_DE_DESPACHO alterado.
+
+
+Table PRODUCTO creado.
+
+
+Table PRODUCTO alterado.
+
+
+Table RECEPTOR creado.
+
+
+Table RECEPTOR alterado.
+
+
+Table SUB_GERENCIA creado.
+
+
+Table SUB_GERENCIA alterado.
+
+
+Table TIPO_DE_DESPACHO creado.
+
+
+Table TIPO_DE_DESPACHO alterado.
+
+
+Table TIPO_RECEPTOR creado.
+
+
+Table TIPO_RECEPTOR alterado.
+
+
+Table VEHICULO creado.
+
+
+Table VEHICULO alterado.
+
+
+Table AREA alterado.
+
+
+Table CARGA_ENTREGADA alterado.
+
+
+Table CARGA_ENTREGADA alterado.
+
+
+Table DESPACHO alterado.
+
+
+Table DESPACHO alterado.
+
+
+Table DESPACHO alterado.
+
+
+Table GUIA_DE_DESPACHO alterado.
+
+
+Table GUIA_DE_DESPACHO alterado.
+
+
+Table GUIA_DE_DESPACHO alterado.
+
+
+Table GUIA_DE_DESPACHO alterado.
+
+
+Table PRODUCTO alterado.
+
+
+Table RECEPTOR alterado.
+
+
+Table DETALLE_DESPACHO alterado.
+
+
+Table DETALLE_DESPACHO alterado.
+

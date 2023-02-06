@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="138DBF94-AB4F-30AD-A24E-9197CAEDD2E6" name="ESTABLECIMIENTO_DESEMPEÑO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:06:04 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9BDE3289-5E8E-55EB-B40B-2F2E1E00A4F9">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:06:35 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A047C864-3883-7B83-5081-A7BFAC41D44C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:29:13 UTC</createdTime>
+<generatorID>D3683E1B-78EF-4D3B-8726-B567450D7BD3</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>75063151-BA18-614A-FF5F-A6BFBC81B75D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0364DEB8-BDC0-24C4-1E38-7429D164FBFF" name="ESTABLECIMIENTO_DESEMPEÑO PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 22:06:42 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BDE3289-5E8E-55EB-B40B-2F2E1E00A4F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,283 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E758027E-AF98-0548-4468-1C7A2264634E" name="POSTULACION">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>6DD7B166-0D0A-5A7B-3B48-4218A865A790</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1E063C52-E2E2-DD3E-1D7E-1BA41AB984B9">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>33A4C960-3368-F08F-DA7B-DB288B170843</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_postulacion" id="4AAE5F09-1283-A314-A533-8A77FCA3C1CE">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>E1E281A5-EF40-279C-E607-CF0ACF5156B3</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCTOR_id" id="CF79977D-5351-7331-FB31-C967FCB1824E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>A3095796-7373-7253-0305-65C7E8BBC67A</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2B8A155-95BA-0F7E-460E-40D314773A95" referredColumn="C40AB70B-2538-B459-882B-78617E98C982"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD_id" id="D5706931-C7D1-84EF-D203-C62D3B8F02DD">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>75B3389C-5147-4A09-5EA5-27E3B5FAC0F0</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9828C7F8-2901-FBEC-561C-AEAF7E67929A" referredColumn="A0B3C835-85BD-98AF-E4F7-73AED22E8F11"/>
+</associations>
+</Column>
+<Column name="INSTITUCION_POSTULA_id" id="6B8BF33C-1E2C-A35B-C017-5477107D5980">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>29600AAB-F299-EBE1-CF7E-46A933F57A0E</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFB71483-8403-0F4D-E8A9-E67866DE3451" referredColumn="FC4569A6-6D8E-82A2-250D-50761F5FF0D7"/>
+</associations>
+</Column>
+<Column name="FORM_CURSOS_PERFECCIONAMIENTO_id" id="DEECEAC0-1C00-8584-329B-0BF29B73C4A0">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>B441B039-7189-EA4C-A49F-D193EFAF479B</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5724D0A3-EEC6-A319-2419-93A89F0BCCD8" referredColumn="A868F4CB-19E4-E951-3222-ED55CCA518BF"/>
+</associations>
+</Column>
+<Column name="TRABAJO_POSTA_RURAL_id" id="F4CD8B8E-7B54-1946-4277-6B5BDC7FC5AD">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>8E02D846-C7E7-E572-0DBB-64571450003E</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B15FC8D-ADD3-5497-53B9-3A4C4BE8F5F1" referredColumn="039B43DD-6D2C-63DD-8FBA-CD7E9916AB97"/>
+</associations>
+</Column>
+<Column name="FORM_ANTIGUEDAD_FUNCIONARIA_id" id="3A1DF15F-6C24-EFDB-4D63-459782A37D44">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>55CE5E3E-D559-0988-1DD4-C80802AD6E12</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="380501D8-D761-A1AF-23F2-69E90676D986" referredColumn="836207E8-E866-EE74-8BF9-907DEF1FD479"/>
+</associations>
+</Column>
+<Column name="FORM_SERVICIO_URGENCIAS_id" id="14167E97-1ED8-F83F-6BAA-5E36CC83BFC0">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>D8C6C916-8BF9-5C48-87AF-76DDD8DBE7FC</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD6C75D1-491B-3920-8329-F47EAECA0C2C" referredColumn="51AED840-CDA7-DD80-8F68-6E245E04A09A"/>
+</associations>
+</Column>
+<Column name="FORM_TRABAJO_COMUNITARIO_id" id="45965A92-EE1D-0C04-E065-DFB6F5295D24">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>7B30E694-3CE0-72B0-AB4C-0F1E18E9EA29</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9950A81-4741-76ED-54E4-6A540A1EE5A9" referredColumn="E90E808C-3C8A-060A-5770-AD1BBD1A8D8E"/>
+</associations>
+</Column>
+<Column name="DESEMPEÑO_ZONAS_EXTREMAS_id" id="2B189AB4-D8E4-62D8-F235-4DDEA82DFF53">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>7DAC5EB8-918E-F037-C71A-DE1AB819AFC9</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA6B930F-20DB-AAAA-EA48-D8328F60C570" referredColumn="C88FFA2E-089F-1D34-3100-467AD7E65026"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F56BAD01-D38B-A143-36C5-C9FBA66451B9" name="POSTULACION_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>85C29CDA-5EBA-2F0D-CAF8-88C7EE95E64A</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E063C52-E2E2-DD3E-1D7E-1BA41AB984B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FEE345B-E436-8835-77DE-A64E5ECDF9F5" name="POSTULACION_DOCTOR_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>026BC7F9-D6DE-C3D7-9D23-67C8FF249FA8</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF79977D-5351-7331-FB31-C967FCB1824E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7466CEE8-4F0C-FAD7-8543-99F71EA99910" name="POSTULACION_ESPECIALIDAD_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>A47615B1-FE73-1A8C-0F14-E96153F4D792</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5706931-C7D1-84EF-D203-C62D3B8F02DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE888D7F-8630-51DC-D29D-F3A29BE8D619" name="POSTULACION_INSTITUCION_POSTULA_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>DE34C10D-4700-1C59-BD67-9727726DAE6E</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B8BF33C-1E2C-A35B-C017-5477107D5980"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16243FEC-0E44-86F6-E806-270FE5455FD8" name="POSTULACION_FORM_CURSOS_PERFECCIONAMIENTO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>593DF60F-7696-A311-5840-DC601855990A</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEECEAC0-1C00-8584-329B-0BF29B73C4A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D0C61FE-9B54-3576-F666-E8CBB6C04CEF" name="POSTULACION_TRABAJO_POSTA_RURAL_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>BA999974-708B-4160-59C9-6D966F03D420</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4CD8B8E-7B54-1946-4277-6B5BDC7FC5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A583148F-9B98-0398-D114-DDA25F15EFC2" name="POSTULACION_FORM_ANTIGUEDAD_FUNCIONARIA_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>1499629F-BD6C-CBFA-CEE6-6F2236A4A96F</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A1DF15F-6C24-EFDB-4D63-459782A37D44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B39465-C8AF-8A9B-5C14-A1ADE200D9A0" name="POSTULACION_FORM_SERVICIO_URGENCIAS_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>61EB0DA8-2F0B-10B0-6B4B-17404349B56D</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14167E97-1ED8-F83F-6BAA-5E36CC83BFC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B5B5493-D55A-64B0-3C95-A1148391535C" name="POSTULACION_FORM_TRABAJO_COMUNITARIO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>AC1311A8-49FF-E6F9-CDAB-7C2C3E8A5499</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45965A92-EE1D-0C04-E065-DFB6F5295D24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0E37F82-1A52-3ED8-7009-583F05ECDD66" name="POSTULACION_DESEMPEÑO_ZONAS_EXTREMAS_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>4D0CED3A-F129-2629-B102-C42535614684</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B189AB4-D8E4-62D8-F235-4DDEA82DFF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

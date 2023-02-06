@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A3E6E7E-AD31-0D0F-2075-40FA9B8D2B91" name="INSTITUCION_POSTULA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-11 18:29:18 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="59993F94-505D-7953-8F9E-B204078247DD">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-11 18:29:55 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="79DD78E6-CA4E-A834-793B-FFF6FDF6C843">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:46:10 UTC</createdTime>
+<generatorID>BD17E846-91F4-9082-1CD0-5593E2DAF66F</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<referedAttribute>AB07C6CF-DE3C-B621-9148-4A5D677E9A25</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEC5FFD2-AFD1-A574-FB57-C010428907B2" name="INSTITUCION_POSTULA PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-11 18:30:08 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<engineerTo>
+<item key="64F0A885-2A7E-4AE5-3C8A-E17084905F03" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59993F94-505D-7953-8F9E-B204078247DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

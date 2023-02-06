@@ -1,0 +1,41 @@
+.parent{
+    display: grid;
+    place-items: center;
+}
+#title{
+    padding-top: 3rem;
+    font-family: miller-banner,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.mb{
+    margin-bottom: 1rem;
+}
+.box{
+width: 400px;
+height: 200px;
+display: flex;
+float: right;   
+border-radius: 10px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+}
+#bg{
+background-color: #e0e0e0;
+}
+.algn{
+    display: flex;
+    padding-left: 1rem;
+}
+.textbox{
+    font-family: forma-djr-micro,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+}
+.cifra{
+    font-weight: 700;
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}

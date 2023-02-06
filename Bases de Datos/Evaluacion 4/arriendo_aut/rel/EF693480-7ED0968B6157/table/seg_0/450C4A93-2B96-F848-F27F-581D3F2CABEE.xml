@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="450C4A93-2B96-F848-F27F-581D3F2CABEE" name="TIPO_COMP">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>9EDD9B61-D960-ED34-CAF0-4BB57BD8ED4A</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2B387F90-AA80-A97E-2215-79969B42606A">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>511E6D94-9D69-FE64-663D-E7892A39FBE4</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="5507897E-0295-7F6A-2F27-CB2219663474">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>FEEDDE91-5D5C-324D-0DBB-8389A20BDC09</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CAF3277-1DB8-5262-5617-40EC4442635B" name="TIPO_COMP_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:44:25 UTC</createdTime>
+<generatorID>CD6F106B-E912-FB30-6F94-BD3BF9D6FB5E</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B387F90-AA80-A97E-2215-79969B42606A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="088E8D04-512E-1A26-8444-7776913AE88A" name="TIPO_COMPONENTE_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+</ind_PK_UK>
+</indexes>
+</Table>

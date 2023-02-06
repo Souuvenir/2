@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC3D1EF4-D8A2-7E8E-5A5D-AC1129AAE71D" name="RESERVA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>C8B965A1-C819-2BAC-048E-5167EAAF4E47</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1205705E-7E42-80DF-0D5E-0B04D3292E26">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>64082BE7-2365-DBF0-8276-11251AC275F2</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOCIO_id" id="34BE71B4-9C76-FF91-C992-24B0F828688C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>F2F42027-7C2D-44A9-F65B-626D654BDE35</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E54EE136-015F-E1B7-8D90-A9190110A992" referredColumn="91808B87-6C67-E6D8-9161-A22AEE6C0571"/>
+</associations>
+</Column>
+<Column name="AUTOMOVIL_id" id="B494400C-735C-68BE-2E90-045620329021">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:39:29 UTC</createdTime>
+<generatorID>11A7E11F-2ED1-2838-B8EB-2808B81DD553</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28D746AF-478B-D74A-3234-BE59B61CD59E" referredColumn="8F99B707-24CC-DA15-E128-C6A0B7B256F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED93DF7D-52FC-6FBB-1C66-F5D4BB8AA6D4" name="RESERVA_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>5275D138-8D23-0DE0-7DD0-E829BD9889E5</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1205705E-7E42-80DF-0D5E-0B04D3292E26"/>
+<colUsage columnID="B494400C-735C-68BE-2E90-045620329021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE6D40CC-0EBC-6BA3-97F2-8141BADE89A4" name="RESERVA_SOCIO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>2940DB75-5A9D-DD88-8B5E-87AEA1D6981B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34BE71B4-9C76-FF91-C992-24B0F828688C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EEB75D2-2E19-B217-66B5-0942F5746392" name="RESERVA_AUTOMOVIL_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:39:29 UTC</createdTime>
+<generatorID>B962CA91-486A-8A0B-AA8F-DC0E98D83BE6</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B494400C-735C-68BE-2E90-045620329021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

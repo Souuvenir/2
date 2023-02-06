@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Estacionamiento
+comment1.params=
+comment1.target=double\ valorAPagar()
+comment10.params=
+comment10.target=java.lang.String\ getUbicacion()
+comment11.params=ubicacion
+comment11.target=void\ setUbicacion(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ mostrarPago()
+comment3.params=hora\ minuto
+comment3.target=void\ registrarEntrada(int,\ int)
+comment4.params=hora\ minuto
+comment4.target=void\ registrarSalida(int,\ int)
+comment5.params=tarifa
+comment5.target=void\ definirTarifaMinuto(int)
+comment6.params=tarifa
+comment6.target=void\ definirTarifaUnica(int)
+comment7.params=tipoDescuento
+comment7.target=void\ definirTipoDescuento(int)
+comment8.params=
+comment8.target=java.lang.String\ getSigla()
+comment9.params=sigla
+comment9.target=void\ setSigla(java.lang.String)
+numComments=12

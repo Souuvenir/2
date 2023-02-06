@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22885468-8C5F-5EFE-D077-B0E464A545BA" containerWithKeyObject="94B0EB11-C98B-8B63-0E7C-12E89C14B526" localFKIndex="3CC5DEA4-14CA-35A5-799C-1A79A803DBBE" name="ANTECEDENTES_TITULO_UNIVERSIDAD_DE_EGRESO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>D827FDC5-593F-727E-7C4E-8FE79992AC24</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<referredTableLongName>UNIVERSIDAD_DE_EGRESO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>188E013D-4B13-6AA0-FE11-6D71956E6EA6</referredTableID>
+<keyObject>5156206A-B545-5F61-4326-1362968B5BB0</keyObject>
+<referredKeyID>5156206A-B545-5F61-4326-1362968B5BB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UNIVERSIDAD_DE_EGRESO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA AUTOMOVIL FK" directorySegmentName="seg_0" id="DAE6E017-B9C2-CE67-E7D0-1666347DCFEC">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:11:32 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<sourcePk>699FEC59-E14A-7E39-6047-A0708912B73E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0541FDE3-3EDE-4B69-27EB-C1BA35C3BED3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D5F8366-5E68-B473-F286-CBE661BBDC41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

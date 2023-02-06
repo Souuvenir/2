@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29E5845A-89AC-CFDD-63D3-CBDB671AB4A7" name="CARGA_ENTREGADA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>6B78F07C-85FA-E9D7-2198-787441C9D46F</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="1DDCE1CA-572B-1FCD-B583-6946759D365E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>854257E3-46BE-DF2F-3D50-75B619F5EF6F</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTO_id" id="A21EF241-3274-ABFF-0828-C7A0A97379A5">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>4552CCF3-078B-1A47-0ADC-7D1C709D085E</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28B29ED5-ED26-071C-A62C-5E99740D01D9" referredColumn="D338366F-6756-3A38-1BE7-4BB9E56B6EFF"/>
+</associations>
+</Column>
+<Column name="DESPACHO_id" id="88E970D5-949A-BE8C-F8AE-A8BBAFF7C971">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>9FEF38F9-5E0B-9AE1-EF06-9B21B7200107</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9DFAC8A-E934-70A2-33B5-4892D1F7CCB2" referredColumn="CFA034CD-72C6-C2A8-6AF4-FD02DCC7F7CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1A99B9B-7C85-FE14-A491-6A5827BCEDE3" name="CARGA_ENTREGADA_PRODUCTO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>4046B8B5-7C06-1383-8BD3-A5CF08DE960F</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A21EF241-3274-ABFF-0828-C7A0A97379A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBBE09DD-1570-76AD-05D4-2F7A6F03D6A9" name="CARGA_ENTREGADA_DESPACHO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>52D43E2A-2767-0136-5AD8-29124E6C3918</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88E970D5-949A-BE8C-F8AE-A8BBAFF7C971"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

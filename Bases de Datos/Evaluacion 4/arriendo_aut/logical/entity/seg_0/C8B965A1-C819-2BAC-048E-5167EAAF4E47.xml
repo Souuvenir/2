@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8B965A1-C819-2BAC-048E-5167EAAF4E47" name="RESERVA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:19:55 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="64082BE7-2365-DBF0-8276-11251AC275F2">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:31:02 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="F2F42027-7C2D-44A9-F65B-626D654BDE35">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:32:35 UTC</createdTime>
+<generatorID>2940DB75-5A9D-DD88-8B5E-87AEA1D6981B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<referedAttribute>53C40065-9AA9-0BE3-BF3B-78363D33B4B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="11A7E11F-2ED1-2838-B8EB-2808B81DD553">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:36:50 UTC</createdTime>
+<generatorID>B962CA91-486A-8A0B-AA8F-DC0E98D83BE6</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<referedAttribute>6BA1B59C-A2F7-9C94-6B09-04831B14E7D9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5275D138-8D23-0DE0-7DD0-E829BD9889E5" name="RESERVA PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:31:08 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64082BE7-2365-DBF0-8276-11251AC275F2</attributeRef>
+<attributeRef>11A7E11F-2ED1-2838-B8EB-2808B81DD553</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9950A81-4741-76ED-54E4-6A540A1EE5A9" containerWithKeyObject="E758027E-AF98-0548-4468-1C7A2264634E" localFKIndex="7B5B5493-D55A-64B0-3C95-A1148391535C" name="POSTULACION_FORM_TRABAJO_COMUNITARIO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>AC1311A8-49FF-E6F9-CDAB-7C2C3E8A5499</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<referredTableLongName>FORM_TRABAJO_COMUNITARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B282E01F-CD3C-963D-ABB6-0115BC59C8C7</referredTableID>
+<keyObject>F05B70E5-F29A-6CF6-2D76-0D74AAD1A166</keyObject>
+<referredKeyID>F05B70E5-F29A-6CF6-2D76-0D74AAD1A166</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

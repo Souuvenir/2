@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B37365E1-CC0A-060D-B712-6453BB74C219" containerWithKeyObject="941CDAD5-F255-6AD9-1011-5604EC44E2C0" localFKIndex="0871FCAF-0533-79AF-9CAE-BA985BC11240" name="ARRIENDO_RESERVA_FKv2">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:48:30 UTC</createdTime>
+<generatorID>41E0D9E6-4E42-EF1A-82D4-3B50BE3F4441</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<referredTableLongName>RESERVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8FEE8016-7B28-3C12-FA4E-3BE890DCE5AD</referredTableID>
+<keyObject>6321E5A6-9955-2D5A-4C0D-67CCBA448DE0</keyObject>
+<referredKeyID>6321E5A6-9955-2D5A-4C0D-67CCBA448DE0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

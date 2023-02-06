@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D319F0D7-6753-728D-EC2A-FAEED8968206" name="GUIA DE DESPACHO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 21:07:01 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="752DED0C-DB74-325D-885B-30EF31F771B5">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:31:09 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="96DEDE28-A160-3F87-195E-0FBBE32BC2CF">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 21:43:52 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="2C5CE7FF-AED6-2C0A-700C-CEC624418108">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 21:44:15 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="3031863B-4541-5258-0013-48E6ACB8FF04">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 00:07:00 UTC</createdTime>
+<generatorID>047119F7-17A5-AE8D-485B-278D2125EA47</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>89C7D925-29EC-F80A-8302-720747DF88D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="B36E0AD3-4727-2C00-BD74-C65B593D4319">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 00:14:33 UTC</createdTime>
+<generatorID>6C61B20B-D802-077A-B7B7-37CCDD2F89DB</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>57A32BF8-2D92-26A3-8E1F-1C01899ABDEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="57DEC0F4-7A94-4DD8-430A-3293ABB9A626">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 00:15:45 UTC</createdTime>
+<generatorID>69A77A5C-CA11-B9C0-5FB6-B7B55E5E37CA</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>EAB30573-10FE-A4A3-E8F1-E6EDC6F0B14C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="D0C215F0-4F62-D442-C643-997AB6520BFE">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:57:36 UTC</createdTime>
+<generatorID>C40716D6-03EA-9803-117D-1BA80548BE34</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>16FB017A-D8E5-7418-7A42-8C52A83C37AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A25440B2-80D6-10CE-3054-61C9808CD622" name="GUIA DE DESPACHO PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:31:30 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>752DED0C-DB74-325D-885B-30EF31F771B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

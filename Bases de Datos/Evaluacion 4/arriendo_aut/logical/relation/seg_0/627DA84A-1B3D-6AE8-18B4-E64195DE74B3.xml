@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="detalle_componentes" directorySegmentName="seg_0" id="627DA84A-1B3D-6AE8-18B4-E64195DE74B3">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 21:28:49 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<engineerTo>
+<item key="EF693480-58CC-5C45-6D90-7ED0968B6157" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>48DCE3E3-A5F9-CADC-D144-6FD06BAF5B2F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C0FE8FF6-6493-544C-0254-A92E217CC924</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

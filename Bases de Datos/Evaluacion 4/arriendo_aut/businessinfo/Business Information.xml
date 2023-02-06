@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="413759E8-F1A0-65E5-18FE-1C6A07FC647F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-01 16:38:43 UTC</createdTime>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

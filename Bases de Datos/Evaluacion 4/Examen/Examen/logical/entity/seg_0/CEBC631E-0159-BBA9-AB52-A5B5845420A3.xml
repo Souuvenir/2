@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEBC631E-0159-BBA9-AB52-A5B5845420A3" name="ARRIENDO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:06:08 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="12A2731E-2909-7C51-BBA4-AB7F921730AB">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:06:21 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inicio" id="D0C92542-9A72-45C1-619D-B7E33E35F90B">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:06:32 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha fin" id="9A37E5F1-90E6-14DD-73F5-FA95CF84BC69">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:06:40 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESERVA id2" id="2B17904F-11B5-C9B9-85F3-EE4977C5B3E5">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:48:08 UTC</createdTime>
+<generatorID>41E0D9E6-4E42-EF1A-82D4-3B50BE3F4441</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<referedAttribute>86767293-9C0E-A738-1BE6-F677B0CB7907</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A51AB938-95DA-6A02-E8B1-6DC7CD1A9070" name="ARRIENDO PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:06:27 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12A2731E-2909-7C51-BBA4-AB7F921730AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

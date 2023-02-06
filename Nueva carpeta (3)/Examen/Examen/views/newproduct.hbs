@@ -1,0 +1,30 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<header>
+</header>
+<body>
+    <h1 class="center zi">Registre un nuevo Producto</h1>
+    <div class="center container-sm">
+        <div id="box" class="center">
+            <form action="/products/guardar" method="post">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Comercio: </label>
+                    <input name="comercio" class="form-control" type="text" placeholder="comerio" aria-label="default input example" value="{{result.comercio}}">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Producto:</label>
+                    <input name="producto" class="form-control" type="text" placeholder="producto" aria-label="default input example" required value="{{result.producto}}">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Precio:</label>
+                    <input name="precio" class="form-control" type="text" placeholder="precio" aria-label="default input example" required value="{{result.precio}}">
+                </div>
+                <div class="d-flex">
+                    <button type="submit" class="btn btn-primary mr">Guardar</button>
+                    <a style="background-color: crimson;"class="btn btn-primary" href="/" role="button">Cancelar</a>
+                </div> 
+            </form>
+        </div>
+    </div>
+</body>

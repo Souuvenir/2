@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Caja
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Caja\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=cantM10\ cantM50\ cantM100\ cantM500
+comment1.target=Caja(int,\ int,\ int,\ int)
+comment10.params=
+comment10.target=int\ getCantCajaM500()
+comment11.params=moneda
+comment11.target=java.lang.String\ ingresarMoneda(int)
+comment2.params=moneda
+comment2.target=boolean\ verificarMoneda(int)
+comment3.params=
+comment3.target=int\ getCantM10()
+comment4.params=
+comment4.target=int\ getCantM50()
+comment5.params=
+comment5.target=int\ getCantM100()
+comment6.params=
+comment6.target=int\ getCantM500()
+comment7.params=
+comment7.target=int\ getCantCajaM10()
+comment8.params=
+comment8.target=int\ getCantCajaM50()
+comment9.params=
+comment9.target=int\ getCantCajaM100()
+numComments=12

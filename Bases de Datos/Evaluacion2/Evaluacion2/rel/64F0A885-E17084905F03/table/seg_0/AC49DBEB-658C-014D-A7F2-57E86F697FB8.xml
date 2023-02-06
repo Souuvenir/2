@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC49DBEB-658C-014D-A7F2-57E86F697FB8" name="ESTABLECIMIENTO_DESEMPEÑO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>138DBF94-AB4F-30AD-A24E-9197CAEDD2E6</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4C720288-F9BE-5490-08ED-89B3DDAB0532">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>9BDE3289-5E8E-55EB-B40B-2F2E1E00A4F9</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ESTABLECIMIENTO_id" id="77A0D827-0602-3E72-590C-3A061464CA3F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>A047C864-3883-7B83-5081-A7BFAC41D44C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9031CBD5-4C4C-5A94-68E7-1C2AAF9725BD" referredColumn="805824F5-BEDE-4D35-2083-7177FF1C0CE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC9F656A-FA9A-3270-36D5-A4FCADF59512" name="ESTABLECIMIENTO_DESEMPEÑO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>0364DEB8-BDC0-24C4-1E38-7429D164FBFF</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C720288-F9BE-5490-08ED-89B3DDAB0532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCFD2C4C-BD51-6190-CF9B-3B5A1DE7086D" name="ESTABLECIMIENTO_DESEMPEÑO_TIPO_ESTABLECIMIENTO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>D3683E1B-78EF-4D3B-8726-B567450D7BD3</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A0D827-0602-3E72-590C-3A061464CA3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

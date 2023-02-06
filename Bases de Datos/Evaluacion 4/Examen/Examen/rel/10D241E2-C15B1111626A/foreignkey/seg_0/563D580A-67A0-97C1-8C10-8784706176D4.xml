@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="563D580A-67A0-97C1-8C10-8784706176D4" containerWithKeyObject="8FEE8016-7B28-3C12-FA4E-3BE890DCE5AD" localFKIndex="2DF0794C-C99B-49E1-9207-2E65FB76F8D1" name="RESERVA_SOCIO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>5C38F592-26AB-F781-84CD-ADB592E21691</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<referredTableLongName>SOCIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF8C6B36-EE9F-A19C-C2AE-C8425D71FE6F</referredTableID>
+<keyObject>76108D41-6C52-CB0B-2E71-59D41D2DA8D1</keyObject>
+<referredKeyID>76108D41-6C52-CB0B-2E71-59D41D2DA8D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

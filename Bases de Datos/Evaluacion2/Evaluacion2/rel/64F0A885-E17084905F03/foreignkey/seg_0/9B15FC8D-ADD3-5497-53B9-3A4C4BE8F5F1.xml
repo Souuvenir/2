@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B15FC8D-ADD3-5497-53B9-3A4C4BE8F5F1" containerWithKeyObject="E758027E-AF98-0548-4468-1C7A2264634E" localFKIndex="2D0C61FE-9B54-3576-F666-E8CBB6C04CEF" name="POSTULACION_TRABAJO_POSTA_RURAL_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>BA999974-708B-4160-59C9-6D966F03D420</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<referredTableLongName>TRABAJO_POSTA_RURAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>71F14496-2F5A-B7E9-7D71-42A1E2EF1DF0</referredTableID>
+<keyObject>CEC06257-F152-4634-EB8B-9C3742519932</keyObject>
+<referredKeyID>CEC06257-F152-4634-EB8B-9C3742519932</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FEE8016-7B28-3C12-FA4E-3BE890DCE5AD" name="RESERVA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>0D5F8366-5E68-B473-F286-CBE661BBDC41</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7696317D-0DE1-ABF7-2761-93A99369E398">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>86767293-9C0E-A738-1BE6-F677B0CB7907</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTOMOVIL_id" id="C674030D-0D8B-68A8-0399-B91CE1CCE610">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>6AB7A859-4347-1A92-0D71-0F7F705DF862</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D2FBDDF-C1D2-E77F-FE57-255AF21144A6" referredColumn="6F4F1410-51A4-5225-897D-42E9F5711C6B"/>
+</associations>
+</Column>
+<Column name="SOCIO_id" id="9040E628-F4F1-A665-AE6B-EA94523E6DF5">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>1727B4C0-D027-E42F-4AA6-E802A51E1BB5</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="563D580A-67A0-97C1-8C10-8784706176D4" referredColumn="0492D02E-2E2E-830A-466E-92075323A23D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6321E5A6-9955-2D5A-4C0D-67CCBA448DE0" name="RESERVA_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>BD9884EA-87DF-5F94-DDBE-C2B0AA043AEC</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7696317D-0DE1-ABF7-2761-93A99369E398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58504CB0-B917-AEC5-9FB4-1CB5D3E34B07" name="RESERVA_AUTOMOVIL_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>DAE6E017-B9C2-CE67-E7D0-1666347DCFEC</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C674030D-0D8B-68A8-0399-B91CE1CCE610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DF0794C-C99B-49E1-9207-2E65FB76F8D1" name="RESERVA_SOCIO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>5C38F592-26AB-F781-84CD-ADB592E21691</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9040E628-F4F1-A665-AE6B-EA94523E6DF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

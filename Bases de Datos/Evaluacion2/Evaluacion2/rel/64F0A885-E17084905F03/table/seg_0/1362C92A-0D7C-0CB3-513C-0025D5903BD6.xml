@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1362C92A-0D7C-0CB3-513C-0025D5903BD6" name="DETALLE_DESEMPEÑO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DESEMPEÑO_id" id="94600A9B-050E-2439-0897-DC7100ACAA09">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9293BF3E-8FEE-8C83-D12A-F437EC5E537C" referredColumn="26EC84FD-9C71-C509-EBED-DB78F1829B27"/>
+</associations>
+</Column>
+<Column name="DOCTOR_id" id="FDC870AD-9EB4-8AEE-738C-1C0626EA0B4E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BABC65B-DF4C-97CB-F7C9-EC6A41794113" referredColumn="C40AB70B-2538-B459-882B-78617E98C982"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A39B250F-DAAC-38F8-B7E8-741C3565EE0D" name="DETALLE_DESEMPEÑO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94600A9B-050E-2439-0897-DC7100ACAA09"/>
+<colUsage columnID="FDC870AD-9EB4-8AEE-738C-1C0626EA0B4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1D4C786-AEC9-2FF1-77DA-EBA2148CB4B6" name="DETALLE_DESEMPEÑO_DESEMPEÑO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>1E5DDF0A-DF2B-2342-86A1-0F31C49C3A6B</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94600A9B-050E-2439-0897-DC7100ACAA09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB048E2E-37C7-A8A5-2DD1-576AC58728DF" name="DETALLE_DESEMPEÑO_DOCTOR_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>1E5DDF0A-DF2B-2342-86A1-0F31C49C3A6B</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDC870AD-9EB4-8AEE-738C-1C0626EA0B4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

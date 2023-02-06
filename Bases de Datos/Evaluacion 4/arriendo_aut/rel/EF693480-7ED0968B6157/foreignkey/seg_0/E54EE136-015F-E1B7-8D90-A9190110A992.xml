@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E54EE136-015F-E1B7-8D90-A9190110A992" containerWithKeyObject="FC3D1EF4-D8A2-7E8E-5A5D-AC1129AAE71D" localFKIndex="FE6D40CC-0EBC-6BA3-97F2-8141BADE89A4" name="RESERVA_SOCIO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>2940DB75-5A9D-DD88-8B5E-87AEA1D6981B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<referredTableLongName>SOCIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ADFBB275-15C4-A7E0-BC8C-2D8FBE45203F</referredTableID>
+<keyObject>561E9172-FD1A-4B77-644D-C637D19EC808</keyObject>
+<referredKeyID>561E9172-FD1A-4B77-644D-C637D19EC808</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

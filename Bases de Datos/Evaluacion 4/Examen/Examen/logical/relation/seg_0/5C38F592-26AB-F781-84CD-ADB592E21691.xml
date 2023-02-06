@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA SOCIO FK" directorySegmentName="seg_0" id="5C38F592-26AB-F781-84CD-ADB592E21691">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:11:41 UTC</createdTime>
+<ownerDesignName>Examen</ownerDesignName>
+<engineerTo>
+<item key="10D241E2-8FEC-DF56-5A54-C15B1111626A" value="true"/>
+</engineerTo>
+<sourcePk>DF465C9D-8F98-421C-3FD5-82F108711F75</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4C94D04B-0AA6-2365-99C5-DBDFDAA5EA17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D5F8366-5E68-B473-F286-CBE661BBDC41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

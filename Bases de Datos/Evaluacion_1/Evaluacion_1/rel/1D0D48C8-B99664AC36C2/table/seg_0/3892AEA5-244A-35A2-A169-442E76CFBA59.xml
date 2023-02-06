@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3892AEA5-244A-35A2-A169-442E76CFBA59" name="GUIA_DE_DESPACHO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>D319F0D7-6753-728D-EC2A-FAEED8968206</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="86CD2B13-46DD-536A-53E6-DB513CEE8955">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>752DED0C-DB74-325D-885B-30EF31F771B5</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="05FB8DB3-4FDE-404A-7DEE-2EA1FD03107F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>96DEDE28-A160-3F87-195E-0FBBE32BC2CF</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="3D4AA54B-E1E3-7D5A-705F-80986D744826">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>2C5CE7FF-AED6-2C0A-700C-CEC624418108</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEHICULO_id" id="72C30DDF-FD3B-0423-269C-B993EDA49C6E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>3031863B-4541-5258-0013-48E6ACB8FF04</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0D5ABF4-6F64-A9E7-FCAF-0C0839A49F94" referredColumn="DFBCDBED-C9D4-9A96-AE6D-1CF2A74BC33C"/>
+</associations>
+</Column>
+<Column name="CONDUCTOR_id" id="D8A296CE-83D7-D9AE-4740-F5814C36B2FA">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>B36E0AD3-4727-2C00-BD74-C65B593D4319</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95E97510-8C39-71A2-B4C1-1F3E395C8BF6" referredColumn="C1B400ED-AA87-09BF-5663-42DEBA2D8D28"/>
+</associations>
+</Column>
+<Column name="DESPACHO_id" id="F347D88A-248D-78B9-1455-1D7E8162333F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>57DEC0F4-7A94-4DD8-430A-3293ABB9A626</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3957EB34-1D7C-A72B-76D3-EACC95DCCC08" referredColumn="CFA034CD-72C6-C2A8-6AF4-FD02DCC7F7CF"/>
+</associations>
+</Column>
+<Column name="RECEPTOR_id" id="DF2755AB-2B03-C0AF-4D91-06E22FBBD244">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>D0C215F0-4F62-D442-C643-997AB6520BFE</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A57B4BF-3FCD-79AC-6520-A7008D71B0C9" referredColumn="6A3743EB-7C9D-0A6E-484B-F3D07416B600"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DA71A8C-A69B-3C17-3391-60319D6631D8" name="GUIA_DE_DESPACHO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>A25440B2-80D6-10CE-3054-61C9808CD622</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86CD2B13-46DD-536A-53E6-DB513CEE8955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EF432EA-F205-7896-7BBB-CFBDE41EACD0" name="GUIA_DE_DESPACHO__IDX">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>69A77A5C-CA11-B9C0-5FB6-B7B55E5E37CA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F347D88A-248D-78B9-1455-1D7E8162333F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="462BF616-E358-3BF3-8742-47ECE55F062A" name="GUIA_DE_DESPACHO_RECEPTOR_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>C40716D6-03EA-9803-117D-1BA80548BE34</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF2755AB-2B03-C0AF-4D91-06E22FBBD244"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F5B92DA-8F4E-4203-2784-4471A43E47AC" name="GUIA_DE_DESPACHO_VEHICULO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>047119F7-17A5-AE8D-485B-278D2125EA47</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72C30DDF-FD3B-0423-269C-B993EDA49C6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33F82820-0DD5-E0E8-26B2-076DB5E16C7A" name="GUIA_DE_DESPACHO_CONDUCTOR_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>6C61B20B-D802-077A-B7B7-37CCDD2F89DB</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8A296CE-83D7-D9AE-4740-F5814C36B2FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="015B6E3B-3749-B3EA-D932-AF886F005E20" name="GUIA_DE_DESPACHO_DESPACHO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:53 UTC</createdTime>
+<generatorID>69A77A5C-CA11-B9C0-5FB6-B7B55E5E37CA</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F347D88A-248D-78B9-1455-1D7E8162333F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

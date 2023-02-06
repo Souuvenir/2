@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03781B12-3BE5-6A26-C591-2D7D9E1B2C87" name="ARRIENDO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>587ACD92-C2A6-B8EF-2A8A-78F93108BC14</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2F6C7F69-209D-A0EC-3070-CF2ECBC31F0D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>99B470A7-0842-161A-02A3-3F79899B0C73</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="4594A27E-E9DA-5FCA-24B6-224D5E69866F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>5832DF61-763B-6911-2B20-4D558F2B2697</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="8E7660E8-36BF-2BB6-6913-D90BE8CB0358">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>F6DC5F0E-F1F1-8827-4836-6732F0B09E4F</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESERVA_id" id="1E6B626F-576A-0E20-A53C-B2939A96F316">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:39:29 UTC</createdTime>
+<generatorID>08927F68-B841-1B1A-4FD9-D523B2F1C2FE</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E45B168-2704-5076-1004-E3A552C37DDC" referredColumn="1205705E-7E42-80DF-0D5E-0B04D3292E26"/>
+</associations>
+</Column>
+<Column name="RESERVA_AUTOMOVIL_id" id="79B1CDD0-2EBB-C2BD-AC39-D6D3337AB06E">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:39:29 UTC</createdTime>
+<generatorID>73EA6071-1A5C-DCE8-2B9A-67D2C6EFBFFC</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E45B168-2704-5076-1004-E3A552C37DDC" referredColumn="B494400C-735C-68BE-2E90-045620329021"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFCD19E5-69A5-7B12-9985-E2C1B2107FFB" name="ARRIENDO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:34:48 UTC</createdTime>
+<generatorID>CA8F54B3-02F1-3755-F99B-6BA07A36373B</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F6C7F69-209D-A0EC-3070-CF2ECBC31F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AEF110E-32C8-652F-145F-12C3F4547D7F" name="ARRIENDO_RESERVA_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-03 23:39:29 UTC</createdTime>
+<generatorID>D3FE3EB2-EC3B-3255-8134-DD18B3C6CE82</generatorID>
+<ownerDesignName>arriendo_aut</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E6B626F-576A-0E20-A53C-B2939A96F316"/>
+<colUsage columnID="79B1CDD0-2EBB-C2BD-AC39-D6D3337AB06E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

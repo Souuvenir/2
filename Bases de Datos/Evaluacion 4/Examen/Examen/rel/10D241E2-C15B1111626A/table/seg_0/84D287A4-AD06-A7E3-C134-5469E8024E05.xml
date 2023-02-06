@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84D287A4-AD06-A7E3-C134-5469E8024E05" name="COMPONENTE">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>3E5719B4-8E5A-BBDA-4DB0-04E37F71673F</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="92E132B7-0F46-2B19-2346-5694413D9EA4">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>907AFE82-AFD7-DDC8-C213-8BE6AC517B21</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_fab" id="C453935D-2BE2-ACCC-F406-B783B83B927D">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>A44F65F1-24A3-0FB5-6134-82B88E97A814</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano_prod" id="D907C748-7E65-50B3-FB06-8A6CDEB8AE95">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>03EF82A9-EA42-43DA-C331-AD4403C8D006</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_COMP_id" id="F6624DE7-6F64-E47F-46F8-D83D35883313">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>902AB96B-8CE2-81AD-BE90-9598C39775CD</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42C5ECBF-D0B8-6203-00F3-25E6B5F43802" referredColumn="5F24D923-9A48-98BE-E0F4-F45CF88E51E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="379EC436-FF45-32A0-F293-8E5BFDCC65A9" name="COMPONENTE_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>DE0784C5-68E3-8013-FB1F-06DE32AB91A2</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92E132B7-0F46-2B19-2346-5694413D9EA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F155B63-99AC-5AC5-A6D1-3E1BFEB9F360" name="COMPONENTE_TIPO_COMP_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-07-04 00:12:17 UTC</createdTime>
+<generatorID>D18D4AA1-9D24-E567-6C22-8135861206A0</generatorID>
+<ownerDesignName>Examen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6624DE7-6F64-E47F-46F8-D83D35883313"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

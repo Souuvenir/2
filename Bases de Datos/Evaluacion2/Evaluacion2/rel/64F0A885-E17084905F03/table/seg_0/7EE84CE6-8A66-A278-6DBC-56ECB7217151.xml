@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EE84CE6-8A66-A278-6DBC-56ECB7217151" name="CONTRATO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>10C49F85-C423-1DDD-5528-FC14E712048D</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="93A947BC-7F97-F886-4786-94785B4065D7">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>BC3EA500-9B81-F9AA-A274-89E140340FEB</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_DE_CONTRATO_id" id="1B3531A9-DC2A-4858-CC56-6164AA2F254F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>5DD6B970-A2BC-41F2-6EF3-6A97B1D138C1</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50412F77-9811-FF8E-D49C-328FE4E6AC63" referredColumn="30CD9185-4E31-D16D-2848-851B20F8F251"/>
+</associations>
+</Column>
+<Column name="DESEMPEÑO_id" id="732A821A-E6FA-B75D-C418-6F1D53B4773F">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>75A92172-9C4F-EDE4-DB37-CA1DCAF83D7C</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C896E282-78F9-D125-F60E-35BA764BE0D2" referredColumn="26EC84FD-9C71-C509-EBED-DB78F1829B27"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30D16322-F5E5-5A3F-878A-83D4B5F1D8B4" name="CONTRATO_PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>7CBC0FEC-5FD5-8D69-429B-2A9A34477419</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93A947BC-7F97-F886-4786-94785B4065D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8955435B-CB71-A487-1929-074AA0998DB9" name="CONTRATO__IDX">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1A6AEB9F-983F-E151-DB2B-89A9A8AF8472</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="732A821A-E6FA-B75D-C418-6F1D53B4773F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB60A0AC-8069-62E9-E1BE-7BC6366A1835" name="CONTRATO_TIPO_DE_CONTRATO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>01A41E92-E7C9-0D07-3DAC-80E2F2439523</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3531A9-DC2A-4858-CC56-6164AA2F254F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04DCF40A-0459-54CB-CE6A-FED6C3BE3805" name="CONTRATO_DESEMPEÑO_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>1A6AEB9F-983F-E151-DB2B-89A9A8AF8472</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="732A821A-E6FA-B75D-C418-6F1D53B4773F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

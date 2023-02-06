@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="380501D8-D761-A1AF-23F2-69E90676D986" containerWithKeyObject="E758027E-AF98-0548-4468-1C7A2264634E" localFKIndex="A583148F-9B98-0398-D114-DDA25F15EFC2" name="POSTULACION_FORM_ANTIGUEDAD_FUNCIONARIA_FK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-06-12 23:56:23 UTC</createdTime>
+<generatorID>1499629F-BD6C-CBFA-CEE6-6F2236A4A96F</generatorID>
+<ownerDesignName>Evaluacion2</ownerDesignName>
+<referredTableLongName>FORM_ANTIGUEDAD_FUNCIONARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E10B5501-E3AE-5EBB-F0D6-72512EEE2E30</referredTableID>
+<keyObject>7AA8C4AF-C175-D04F-8014-B7E1D3286FCD</keyObject>
+<referredKeyID>7AA8C4AF-C175-D04F-8014-B7E1D3286FCD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

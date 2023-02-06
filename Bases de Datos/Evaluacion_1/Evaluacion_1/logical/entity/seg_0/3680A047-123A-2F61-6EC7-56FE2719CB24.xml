@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3680A047-123A-2F61-6EC7-56FE2719CB24" name="DESPACHO">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 20:48:05 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Desp</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EAB30573-10FE-A4A3-E8F1-E6EDC6F0B14C">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 20:48:22 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="46BAA43C-0411-4F28-E1FC-154B06528665">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-26 20:48:46 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3EC5F5B0-9726-4906-E21E-A1B7DFDFB2D0">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-27 00:37:21 UTC</createdTime>
+<generatorID>12EDFDB9-DB32-EC91-2AC4-371856371970</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>94A2A8A4-5C9D-EB77-F2A2-59BF26E33EA5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="1F38D5CE-99DC-572B-1033-E7C4F8DF0E37">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 01:20:50 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="BD99D1FE-9A18-9A6C-B824-8A93F1114220">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 21:56:30 UTC</createdTime>
+<generatorID>365519E8-63A1-E685-0D9F-212398D81D28</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>066F4276-3DD3-EDA6-7129-4575FE160710</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="9DDEA378-B16A-782F-EDA8-262833381955">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-29 16:57:34 UTC</createdTime>
+<generatorID>B0650346-A560-836B-680C-D31295911020</generatorID>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<referedAttribute>7381DA7D-CF52-984D-8054-0A24AB075EDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F7ECA15-C267-EE17-F1E3-F25EC326B5F7" name="DESPACHO PK">
+<createdBy>Nat</createdBy>
+<createdTime>2022-05-28 00:02:26 UTC</createdTime>
+<ownerDesignName>Evaluacion_1</ownerDesignName>
+<engineerTo>
+<item key="1D0D48C8-1E40-D59A-986A-B99664AC36C2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAB30573-10FE-A4A3-E8F1-E6EDC6F0B14C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
